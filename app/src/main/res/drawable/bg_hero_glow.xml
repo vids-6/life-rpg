@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Soft round highlight placed behind the hero avatar. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <gradient
+        android:gradientRadius="60dp"
+        android:endColor="#00FFFFFF"
+        android:startColor="#33FFFFFF"
+        android:type="radial" />
+</shape>

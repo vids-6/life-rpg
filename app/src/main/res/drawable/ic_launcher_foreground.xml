@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gold crest with a forest-green star. Kept inside the 66dp adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:pathData="M54,25L77,33.500V52C77,67 67.500,77.500 54,83C40.500,77.500 31,67 31,52V33.500Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endColor="#D9A02B"
+                android:endX="77"
+                android:endY="83"
+                android:startColor="#FFD97A"
+                android:startX="31"
+                android:startY="25"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#1F4A35"
+        android:pathData="M54,31.500L72,38V52C72,64 64.500,72.500 54,77.500C43.500,72.500 36,64 36,52V38Z" />
+    <path
+        android:fillColor="#F2C14E"
+        android:pathData="M54,40.500l3.700,7.600l8.300,1.200l-6,5.900l1.400,8.300l-7.400,-3.900l-7.400,3.900l1.400,-8.300l-6,-5.900l8.300,-1.200z" />
+</vector>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DARK theme: deep forest green, muted sage, soft mint, warm gold. -->
+    <color name="lr_primary">#A8D5A2</color>
+    <color name="lr_primary_light">#C6E6C1</color>
+    <color name="lr_primary_dark">#7FB87A</color>
+    <color name="lr_on_primary">#0E2016</color>
+    <color name="lr_accent">#86C9B0</color>
+    <color name="lr_gold">#E3B65A</color>
+    <color name="lr_gold_light">#F4D58F</color>
+    <color name="lr_gold_dark">#C99A3C</color>
+    <color name="lr_on_gold">#241A06</color>
+    <color name="lr_success">#6FCF97</color>
+    <color name="lr_warning">#E0A94A</color>
+    <color name="lr_danger">#E5736F</color>
+
+    <color name="lr_attr_intelligence">#7DB7C9</color>
+    <color name="lr_attr_strength">#E09A78</color>
+    <color name="lr_attr_discipline">#C4C27D</color>
+    <color name="lr_attr_creativity">#E3A0B2</color>
+    <color name="lr_attr_vitality">#7FD1A0</color>
+
+    <color name="lr_hero_start">#35654C</color>
+    <color name="lr_hero_mid">#244A38</color>
+    <color name="lr_hero_end">#183427</color>
+
+    <color name="lr_bg">#0D1812</color>
+    <color name="lr_surface">#15251C</color>
+    <color name="lr_surface_alt">#1C3024</color>
+    <color name="lr_surface_high">#264030</color>
+    <color name="lr_stroke">#29422F</color>
+    <color name="lr_stroke_strong">#3C5B46</color>
+    <color name="lr_text">#EDF5EC</color>
+    <color name="lr_text_secondary">#AFC6B4</color>
+    <color name="lr_text_tertiary">#86A08D</color>
+    <color name="lr_primary_text">#A8D5A2</color>
+    <color name="lr_gold_text">#EBC46E</color>
+    <color name="lr_primary_soft">#2EA8D5A2</color>
+    <color name="lr_gold_soft">#29E3B65A</color>
+    <color name="lr_success_soft">#266FCF97</color>
+    <color name="lr_nav_bg">#101E17</color>
+    <color name="lr_nav_indicator">#2F5A44</color>
+    <color name="lr_nav_selected">#D3EDCE</color>
+    <color name="lr_scrim">#B3040C08</color>
+</resources>

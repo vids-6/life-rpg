@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- API 27+: dark navigation-bar icons in the light theme. -->
+    <style name="Theme.LifeRPG" parent="Base.Theme.LifeRPG">
+        <item name="android:windowLightNavigationBar">@bool/lr_light_bars</item>
+    </style>
+</resources>

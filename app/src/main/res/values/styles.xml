@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===================== Shapes ===================== -->
+    <style name="ShapeAppearance.LifeRPG.Small" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="ShapeAppearance.LifeRPG.Medium" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="ShapeAppearance.LifeRPG.Large" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+    <style name="ShapeAppearance.LifeRPG.Dialog" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+    <style name="ShapeAppearance.LifeRPG.Pill" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- ===================== Text appearances (Material components read these) ===================== -->
+    <style name="TextAppearance.LifeRPG.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TextAppearance.LifeRPG.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="TextAppearance.LifeRPG.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="TextAppearance.LifeRPG.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="TextAppearance.LifeRPG.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="TextAppearance.LifeRPG.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="TextAppearance.LifeRPG.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="TextAppearance.LifeRPG.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:fontFamily">@font/marcellus_regular</item>
+    </style>
+    <style name="TextAppearance.LifeRPG.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="TextAppearance.LifeRPG.Chip" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- ===================== Text styles used by layouts ===================== -->
+    <style name="Text.LifeRPG" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/lr_text</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!-- Screen titles: elegant serif caps-feel display face -->
+    <style name="Text.LifeRPG.Headline" parent="Text.LifeRPG">
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">@font/marcellus_regular</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="Text.LifeRPG.Display" parent="Text.LifeRPG">
+        <item name="android:textSize">34sp</item>
+        <item name="android:fontFamily">@font/marcellus_regular</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+    <style name="Text.LifeRPG.Title" parent="Text.LifeRPG">
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="Text.LifeRPG.Body" parent="Text.LifeRPG">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="Text.LifeRPG.Caption" parent="Text.LifeRPG">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/lr_text_secondary</item>
+    </style>
+    <!-- Section headings inside a screen (18-22sp range) -->
+    <style name="Text.LifeRPG.Section" parent="Text.LifeRPG">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+    <!-- Secondary text that must stay clearly readable (13-14sp) -->
+    <style name="Text.LifeRPG.Label" parent="Text.LifeRPG">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/lr_text_secondary</item>
+    </style>
+    <!-- Small uppercase section label -->
+    <style name="Text.LifeRPG.Overline" parent="Text.LifeRPG">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/lr_text_tertiary</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <!-- Big numbers -->
+    <style name="Text.LifeRPG.Metric" parent="Text.LifeRPG">
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="Text.LifeRPG.OnGradient" parent="Text.LifeRPG">
+        <item name="android:textColor">@color/lr_white</item>
+    </style>
+    <style name="Text.LifeRPG.Gold" parent="Text.LifeRPG">
+        <item name="android:textColor">@color/lr_gold_text</item>
+    </style>
+
+    <!-- ===================== Cards ===================== -->
+    <style name="Widget.LifeRPG.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/lr_surface</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeColor">@color/lr_stroke</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="rippleColor">@color/lr_primary_soft</item>
+    </style>
+
+    <!-- ===================== Buttons ===================== -->
+    <style name="Widget.LifeRPG.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/lr_primary</item>
+        <item name="android:textColor">@color/lr_on_primary</item>
+        <item name="iconTint">@color/lr_on_primary</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Widget.LifeRPG.Button.Gold" parent="Widget.LifeRPG.Button">
+        <item name="backgroundTint">@color/lr_gold</item>
+        <item name="android:textColor">@color/lr_on_gold</item>
+        <item name="iconTint">@color/lr_on_gold</item>
+        <item name="rippleColor">@color/lr_gold_dark</item>
+    </style>
+    <style name="Widget.LifeRPG.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/lr_stroke_strong</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:textColor">@color/lr_text</item>
+        <item name="iconTint">@color/lr_primary_text</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="rippleColor">@color/lr_primary_soft</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Widget.LifeRPG.Button.Danger" parent="Widget.LifeRPG.Button.Outlined">
+        <item name="strokeColor">@color/lr_danger</item>
+        <item name="android:textColor">@color/lr_danger</item>
+        <item name="iconTint">@color/lr_danger</item>
+        <item name="rippleColor">@color/lr_danger</item>
+    </style>
+    <style name="Widget.LifeRPG.Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/lr_primary_text</item>
+        <item name="iconTint">@color/lr_primary_text</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <!-- Glass button that sits on the hero gradient -->
+    <style name="Widget.LifeRPG.Button.Glass" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">#40FFFFFF</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="backgroundTint">#1FFFFFFF</item>
+        <item name="android:textColor">@color/lr_white</item>
+        <item name="iconTint">@color/lr_gold_light</item>
+        <item name="cornerRadius">22dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="rippleColor">#33FFFFFF</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minHeight">44dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+    <!-- Dashboard shortcut tile: icon on top, label below -->
+    <style name="Widget.LifeRPG.Button.Tile" parent="Widget.LifeRPG.Button.Outlined">
+        <item name="backgroundTint">@color/lr_surface</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:paddingHorizontal">2dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="strokeColor">@color/lr_stroke</item>
+        <item name="cornerRadius">18dp</item>
+        <item name="iconGravity">top</item>
+        <item name="iconPadding">6dp</item>
+        <item name="iconSize">28dp</item>
+        <item name="iconTint">@color/lr_primary_text</item>
+    </style>
+    <!-- Round toolbar icon button (back, settings...) -->
+    <style name="Widget.LifeRPG.IconButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">@drawable/bg_icon_button</item>
+        <item name="android:tint">@color/lr_text</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="Widget.LifeRPG.IconButton.Glass" parent="Widget.LifeRPG.IconButton">
+        <item name="android:background">@drawable/bg_icon_button_glass</item>
+        <item name="android:tint">@color/lr_white</item>
+    </style>
+    <!-- Bare icon button inside cards (edit/delete) -->
+    <style name="Widget.LifeRPG.IconButton.Plain" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:tint">@color/lr_text_secondary</item>
+        <item name="android:padding">11dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <!-- ===================== Chips ===================== -->
+    <style name="Widget.LifeRPG.Chip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_bg</item>
+        <item name="android:textColor">@color/chip_text</item>
+        <item name="android:textAppearance">@style/TextAppearance.LifeRPG.Chip</item>
+        <item name="chipStrokeColor">@color/chip_stroke</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">20dp</item>
+        <item name="chipMinHeight">44dp</item>
+        <item name="chipIconSize">20dp</item>
+        <item name="chipIconTint">@color/chip_icon</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="android:checkable">true</item>
+        <item name="rippleColor">@color/lr_primary_soft</item>
+    </style>
+
+    <!-- ===================== Progress bars (max 1000 for smooth animation) ===================== -->
+    <style name="Widget.LifeRPG.ProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/bg_progress</item>
+        <item name="android:minHeight">10dp</item>
+        <item name="android:maxHeight">16dp</item>
+    </style>
+    <style name="Widget.LifeRPG.ProgressBar.OnGradient" parent="Widget.LifeRPG.ProgressBar">
+        <item name="android:progressDrawable">@drawable/bg_progress_light</item>
+    </style>
+    <style name="Widget.LifeRPG.ProgressBar.Success" parent="Widget.LifeRPG.ProgressBar">
+        <item name="android:progressDrawable">@drawable/bg_progress_success</item>
+    </style>
+
+    <!-- ===================== Inputs ===================== -->
+    <style name="Widget.LifeRPG.Input" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/box_stroke</item>
+        <item name="hintTextColor">@color/lr_primary_text</item>
+        <item name="android:textColorHint">@color/lr_text_tertiary</item>
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+    </style>
+    <style name="Widget.LifeRPG.Dropdown" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxStrokeColor">@color/box_stroke</item>
+        <item name="hintTextColor">@color/lr_primary_text</item>
+        <item name="android:textColorHint">@color/lr_text_tertiary</item>
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+    </style>
+
+    <style name="TextAppearance.LifeRPG.Tab" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <!-- ===================== Bottom navigation ===================== -->
+    <style name="TextAppearance.LifeRPG.Nav" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Widget.LifeRPG.BottomNav.ActiveIndicator">
+        <item name="android:width">64dp</item>
+        <item name="android:height">32dp</item>
+        <item name="android:color">@color/lr_nav_indicator</item>
+        <item name="marginHorizontal">4dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.LifeRPG.Pill</item>
+    </style>
+</resources>

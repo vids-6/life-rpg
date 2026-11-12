@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LIGHT theme: warm cream and beige surfaces with sage and muted green accents. Dark overrides live in values-night. -->
+    <color name="lr_white">#FFFFFF</color>
+
+    <!-- Brand -->
+    <color name="lr_primary">#4A7656</color>
+    <color name="lr_primary_light">#86AE8E</color>
+    <color name="lr_primary_dark">#335A41</color>
+    <color name="lr_on_primary">#FFFFFF</color>
+    <color name="lr_accent">#8B6B4A</color>
+    <color name="lr_gold">#D9A441</color>
+    <color name="lr_gold_light">#F3CE7A</color>
+    <color name="lr_gold_dark">#B7842B</color>
+    <color name="lr_on_gold">#2A1E08</color>
+    <color name="lr_success">#37724A</color>
+    <color name="lr_warning">#C9902F</color>
+    <color name="lr_danger">#B5483F</color>
+
+    <!-- Attribute / category accents -->
+    <color name="lr_attr_intelligence">#5F93A3</color>
+    <color name="lr_attr_strength">#C97B58</color>
+    <color name="lr_attr_discipline">#7D8344</color>
+    <color name="lr_attr_creativity">#C77A8D</color>
+    <color name="lr_attr_vitality">#5E9E6E</color>
+
+    <!-- Hero surface (sage to forest green; white text stays readable) -->
+    <color name="lr_hero_start">#4A7F5B</color>
+    <color name="lr_hero_mid">#3A6B4B</color>
+    <color name="lr_hero_end">#284E38</color>
+
+    <!-- Surfaces and text -->
+    <color name="lr_bg">#F7F0E3</color>
+    <color name="lr_surface">#FFFAF0</color>
+    <color name="lr_surface_alt">#F0E5D2</color>
+    <color name="lr_surface_high">#E5D6BE</color>
+    <color name="lr_stroke">#E4D7C0</color>
+    <color name="lr_stroke_strong">#CDB99A</color>
+    <color name="lr_text">#26332A</color>
+    <color name="lr_text_secondary">#4B5A48</color>
+    <color name="lr_text_tertiary">#5F6B58</color>
+    <color name="lr_primary_text">#34603F</color>
+    <color name="lr_gold_text">#855810</color>
+    <color name="lr_primary_soft">#224A7656</color>
+    <color name="lr_gold_soft">#33D9A441</color>
+    <color name="lr_success_soft">#264F8A5B</color>
+    <color name="lr_nav_bg">#FFF8EC</color>
+    <color name="lr_nav_indicator">#D4E4CC</color>
+    <color name="lr_nav_selected">#2B4A34</color>
+    <color name="lr_scrim">#99202A22</color>
+</resources>

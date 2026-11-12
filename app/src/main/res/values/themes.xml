@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.LifeRPG" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/lr_primary</item>
+        <item name="colorPrimaryVariant">@color/lr_primary_dark</item>
+        <item name="colorOnPrimary">@color/lr_on_primary</item>
+        <item name="colorSecondary">@color/lr_accent</item>
+        <item name="colorSecondaryVariant">@color/lr_accent</item>
+        <item name="colorOnSecondary">@color/lr_on_primary</item>
+        <item name="android:colorBackground">@color/lr_bg</item>
+        <item name="colorSurface">@color/lr_surface</item>
+        <item name="colorOnSurface">@color/lr_text</item>
+        <item name="colorOnBackground">@color/lr_text</item>
+        <item name="colorError">@color/lr_danger</item>
+        <item name="colorOnError">@color/lr_white</item>
+
+        <item name="android:statusBarColor">@color/lr_bg</item>
+        <item name="android:navigationBarColor">@color/lr_nav_bg</item>
+        <item name="android:windowLightStatusBar">@bool/lr_light_bars</item>
+        <item name="android:windowBackground">@color/lr_bg</item>
+        <item name="android:textColorPrimary">@color/lr_text</item>
+        <item name="android:textColorSecondary">@color/lr_text_secondary</item>
+        <item name="android:textColorHint">@color/lr_text_tertiary</item>
+        <item name="android:fontFamily">@font/poppins</item>
+
+        <!-- Typography: Poppins everywhere; Marcellus is used for display titles. -->
+        <item name="textAppearanceBody1">@style/TextAppearance.LifeRPG.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.LifeRPG.Body2</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.LifeRPG.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.LifeRPG.Subtitle2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.LifeRPG.Caption</item>
+        <item name="textAppearanceButton">@style/TextAppearance.LifeRPG.Button</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.LifeRPG.Overline</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.LifeRPG.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.LifeRPG.Headline6</item>
+
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.LifeRPG.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.LifeRPG.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.LifeRPG.Large</item>
+
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.LifeRPG.MaterialAlertDialog</item>
+    </style>
+
+    <style name="Theme.LifeRPG" parent="Base.Theme.LifeRPG" />
+
+    <!-- Rounded surface dialogs -->
+    <style name="ThemeOverlay.LifeRPG.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.LifeRPG</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.LifeRPG.Title.Text</item>
+    </style>
+
+    <style name="MaterialAlertDialog.LifeRPG" parent="MaterialAlertDialog.MaterialComponents">
+        <item name="shapeAppearance">@style/ShapeAppearance.LifeRPG.Dialog</item>
+        <item name="shapeAppearanceOverlay">@null</item>
+    </style>
+
+    <style name="MaterialAlertDialog.LifeRPG.Title.Text" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/lr_text</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/marcellus_regular</item>
+    </style>
+</resources>

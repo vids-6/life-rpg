@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tv_g_name"
+            style="@style/Text.LifeRPG.Headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_g_category"
+            style="@style/Text.LifeRPG.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/lr_gold_text" />
+
+        <TextView
+            android:id="@+id/tv_g_address"
+            style="@style/Text.LifeRPG.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/tv_g_meta"
+            style="@style/Text.LifeRPG.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/lr_primary_text" />
+
+        <TextView
+            android:id="@+id/tv_g_hours"
+            style="@style/Text.LifeRPG.Label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/tv_g_contact"
+            style="@style/Text.LifeRPG.Label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="phone|web"
+            android:textColorLink="@color/lr_primary_text" />
+
+        <TextView
+            style="@style/Text.LifeRPG.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Gym data © OpenStreetMap contributors" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_g_workout"
+            style="@style/Widget.LifeRPG.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Start workout here" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_g_directions"
+            style="@style/Widget.LifeRPG.Button.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Directions"
+            app:icon="@drawable/ic_directions"
+            app:iconGravity="textStart"
+            app:iconPadding="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_g_save"
+            style="@style/Widget.LifeRPG.Button.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Save gym"
+            app:icon="@drawable/ic_bookmark"
+            app:iconGravity="textStart"
+            app:iconPadding="8dp" />
+    </LinearLayout>
+</ScrollView>

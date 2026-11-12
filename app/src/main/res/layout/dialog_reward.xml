@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false">
+
+    <LinearLayout
+        android:id="@+id/reward_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_reward_dialog"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="26dp">
+
+        <FrameLayout
+            android:layout_width="112dp"
+            android:layout_height="112dp">
+
+            <com.example.liferpg.ui.AvatarView
+                android:id="@+id/avatar_reward"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_reward_icon"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_badge_unlocked"
+                android:contentDescription="@null"
+                android:padding="26dp"
+                app:tint="@color/lr_on_gold" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_reward_title"
+            style="@style/Text.LifeRPG.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:textColor="@color/lr_gold_light"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_reward_msg"
+            style="@style/Text.LifeRPG.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#EDF5EC" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_reward_ok"
+            style="@style/Widget.LifeRPG.Button.Gold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="Awesome" />
+    </LinearLayout>
+</FrameLayout>

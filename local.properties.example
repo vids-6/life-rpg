@@ -1,0 +1,6 @@
+## Copy these lines into local.properties (Android Studio creates that file; it is git-ignored).
+## sdk.dir is written by Android Studio automatically.
+# sdk.dir=C\:\\Users\\you\\AppData\\Local\\Android\\Sdk
+## OPTIONAL: only needed for the interactive Google map in Gym Finder. Gym search itself needs no key.
+## Leave it out (or keep the placeholder) and the map card is simply hidden.
+# MAPS_API_KEY=YOUR_ANDROID_RESTRICTED_API_KEY

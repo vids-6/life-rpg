@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light system-bar icons are used in the light theme only. -->
+    <bool name="lr_light_bars">true</bool>
+</resources>
